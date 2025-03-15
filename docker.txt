@@ -1,0 +1,9 @@
+docker
+docker ps -a
+docker rm
+docker inspect
+
+df -h
+du -sh
+du -s
+
