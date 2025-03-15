@@ -1,9 +1,19 @@
-docker
-docker ps -a
-docker rm
-docker inspect
+ssh root@37.252.23.102
 
+******docker*******
+docker ps /work container
+docker ps -a /all container
+docker rm /remove
+docker ps -s /size  
+docker inspect 
+docker compose up --build
+******ubuntu*******
 df -h
 du -sh
 du -s
 
+*****python*****
+python -V
+
+******psql******
+sudo systemctl status postgresql.service
